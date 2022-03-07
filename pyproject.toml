@@ -23,6 +23,14 @@ classifiers = [
 requires-python = ">=3.5"
 license = {"file" = "LICENSE"}
 dynamic = ["version", "description"]
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "pandas",
+    "rich"
+]
 
 [tool.flit.module]
 name = "tp4"
