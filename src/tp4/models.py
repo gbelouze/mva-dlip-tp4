@@ -79,7 +79,7 @@ class ResNet18(nn.Module):
         return out
 
     def last_parameters(self, n_layers):
-        assert n_layers <= 6, "There only 6 layers in total"
+        assert n_layers <= 6, "There are only 6 layers in total"
         ret = []
         for layer in [
             self.fc,
